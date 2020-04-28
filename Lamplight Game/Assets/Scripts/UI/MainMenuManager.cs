@@ -26,48 +26,42 @@ public class MainMenuManager : MonoBehaviour
     public float playMenuTimeOut;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        state = menuState.AWAKE;
+        buttonsInteractible = false;
+        StartCoroutine(initButtonsInteractible());
+        state = menuState.AWAKE;   
     }
 
-    private void Update()
+    public IEnumerator initButtonsInteractible()
     {
-        /* if (state == menuState.AWAKE)
-        {
-            MainMenuIn();
-        }
-        else if (state == menuState.MAIN_MENU_IN)
-        {
-            isAnimating = true;
-        }
-        else
-        {
-            return;
-        }
-        */
+        yield return new WaitForSeconds(mainMenuTimeIn);
+        buttonsInteractible = true;
     }
-
-    public void MainMenuIn()
+    public IEnumerator PlayMenuOutMainMenuIn()
     {
+        buttonsInteractible = false;
+        yield return new WaitForSeconds(playMenuTimeOut);
+        playMenu.SetActive(false);
+        yield return new WaitForSeconds(mainMenuTimeIn);
         mainMenuAnimator.Play("Main_Menu_In", 0);
         state = menuState.MAIN_MENU;
     }
-    public void MainMenuOut()
+    public void mainMenuOutPlayMenuIn()
     {
+            StartCoroutine(MainMenuOutPlayMenuIn());
+    }
+
+    public IEnumerator MainMenuOutPlayMenuIn()
+    {
+        buttonsInteractible = false;
         mainMenuAnimator.Play("Main_Menu_Out", 0);
-        //if (state == menuState.PLAY_MENU)
-        //{
-            StartCoroutine(PlayMenuIn());
-        //}
-
-    }
-
-    public IEnumerator PlayMenuIn()
-    {
-        yield return new WaitForSeconds(playMenuTimeIn);
+        yield return new WaitForSeconds(mainMenuTimeOut);
         playMenu.SetActive(true);
-
-
+        yield return new WaitForSeconds(playMenuTimeIn);
+        mainMenu.SetActive(false);
+        buttonsInteractible = true;
     }
+
+
 }
