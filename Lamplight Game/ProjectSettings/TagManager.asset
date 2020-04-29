@@ -44,6 +44,9 @@ TagManager:
   - name: Decorations
     uniqueID: 3158812459
     locked: 0
+  - name: EnemyShadows
+    uniqueID: 2677216705
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
