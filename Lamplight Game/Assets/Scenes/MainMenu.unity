@@ -1488,26 +1488,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591163934}
   m_CullTransparentMesh: 0
---- !u!1 &662069939 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4431355993280493164, guid: 27b80ef72f93bf144a6ecd2a43c55c22,
-    type: 3}
-  m_PrefabInstance: {fileID: 4431355994340952876}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &662069942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662069939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bde9a6f1fba6c0244811916f1e2adfa5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ppv: {fileID: 662069939}
-  volume: {fileID: 0}
 --- !u!1 &969845659
 GameObject:
   m_ObjectHideFlags: 0
@@ -3814,6 +3794,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Post Processing
       objectReference: {fileID: 0}
+    - target: {fileID: 4431355993280493165, guid: 27b80ef72f93bf144a6ecd2a43c55c22,
+        type: 3}
+      propertyPath: sharedProfile
+      value: 
+      objectReference: {fileID: 11400000, guid: 2be1d28f768943d4083161101452cfd7,
+        type: 2}
     - target: {fileID: 4431355993280493166, guid: 27b80ef72f93bf144a6ecd2a43c55c22,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -38,6 +38,8 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+<<<<<<< HEAD
+=======
   - name: Background
     uniqueID: 651702837
     locked: 0
@@ -47,9 +49,7 @@ TagManager:
   - name: EnemyShadows
     uniqueID: 2677216705
     locked: 0
+>>>>>>> parent of 39f18a7... Revert "Started test combat scene."
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Enemy
-    uniqueID: 704838157
     locked: 0

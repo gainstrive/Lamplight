@@ -16,10 +16,10 @@ MonoBehaviour:
   m_AdvancedMode: 0
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0.00085891905}
+    m_Value: {x: 1, y: 1, z: 1, w: 0.40322578}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: -0.011834318}
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
   highlights:
     m_OverrideState: 0
     m_Value: {x: 1, y: 1, z: 1, w: 0}
@@ -55,20 +55,26 @@ MonoBehaviour:
   m_AdvancedMode: 0
   type:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 2
   intensity:
     m_OverrideState: 1
+<<<<<<< HEAD:Lamplight Game/Assets/Scenes/MainMenu/Post Processing Profile.asset
+    m_Value: 0.759
+=======
     m_Value: 0.526
+>>>>>>> parent of 39f18a7... Revert "Started test combat scene.":Lamplight Game/Assets/PostProcessing/MainMenu/Post Processing Profile.asset
     min: 0
     max: 1
   response:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.056
     min: 0
     max: 1
   texture:
     m_OverrideState: 1
     m_Value: {fileID: 0}
+<<<<<<< HEAD:Lamplight Game/Assets/Scenes/MainMenu/Post Processing Profile.asset
+=======
 --- !u!114 &-4159447716069065977
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -91,6 +97,7 @@ MonoBehaviour:
     m_Value: 0.253
     min: 0
     max: 1
+>>>>>>> parent of 39f18a7... Revert "Started test combat scene.":Lamplight Game/Assets/PostProcessing/MainMenu/Post Processing Profile.asset
 --- !u!114 &-3052194946883103858
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -113,10 +120,10 @@ MonoBehaviour:
     showEyeDropper: 1
   center:
     m_OverrideState: 1
-    m_Value: {x: 0.52, y: 0.43}
+    m_Value: {x: 0.28, y: 0.21}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.33
     min: 0
     max: 1
   smoothness:
@@ -144,7 +151,6 @@ MonoBehaviour:
   - {fileID: -4786415555514937114}
   - {fileID: -4911726154628925738}
   - {fileID: 5927790036353969224}
-  - {fileID: -4159447716069065977}
 --- !u!114 &5927790036353969224
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -161,24 +167,24 @@ MonoBehaviour:
   m_AdvancedMode: 0
   threshold:
     m_OverrideState: 1
-    m_Value: 0.68
+    m_Value: 0.09
     min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 2.82
+    m_Value: 0.72
     min: 0
   scatter:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.98
     min: 0
     max: 1
   clamp:
     m_OverrideState: 1
-    m_Value: 65488.36
+    m_Value: 65460.45
     min: 0
   tint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.9784952, b: 0.9103774, a: 1}
+    m_Value: {r: 0.7372549, g: 0.45689392, b: 0.1764706, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 1
@@ -190,5 +196,5 @@ MonoBehaviour:
     m_Value: {fileID: 2800000, guid: 1cdc5b506b1a4a33a53c30669ced1f51, type: 3}
   dirtIntensity:
     m_OverrideState: 1
-    m_Value: 0.78
+    m_Value: 1.4
     min: 0
