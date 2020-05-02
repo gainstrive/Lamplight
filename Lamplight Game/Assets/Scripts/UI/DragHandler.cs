@@ -41,13 +41,13 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         currentPosY = this.transform.position.y;
 
         currentScale = this.transform.localScale;
-        if (currentPosY > initialPosY && currentScale.x >= 0.350002f)
+        if (currentPosY > initialPosY && currentScale.x >= 0.35)
         {
             scaleChange = new Vector3(-0.01f, -0.02f, 0.03f);
             this.transform.localScale += scaleChange;
             // Debug.Log("Dragging UP");
         }
-        else if (currentPosY < initialPosY && currentScale.x < .45f)
+        else if (currentPosY < initialPosY && currentScale.x < .5f)
         {
             scaleChange = new Vector3(0.01f, 0.02f, 0.03f);
             this.transform.localScale += scaleChange;
@@ -67,9 +67,9 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         // else reset card to original position && scale.
 
         this.transform.position = new Vector3(originalPosX, originalPosY, 0);
-        this.transform.localScale = new Vector3(.45f, .45f, 0);
-
+        this.transform.localScale = new Vector3(.4f, .4f, 0);
         GetComponent<CanvasGroup>().blocksRaycasts = true;
+
         Debug.Log(this.transform.position);
     }
 
