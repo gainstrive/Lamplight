@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 5bfdad52e37d131458558bb6f46dbd2e
 ScriptedImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4457850898058260020
+    second: CardBackArt
+  - first:
+      213: 3609959554996883812
+    second: CardArtBack
+  - first:
+      213: 693384124834221472
+    second: CardRibbonBottom
+  - first:
+      213: 7254593484104784328
+    second: Card_3
+  - first:
+      213: 3515724163430638945
+    second: CardRibbonTop
+  - first:
+      213: -8627803510776909774
+    second: CardBody
+  - first:
+      213: -178499864975547042
+    second: CardGem
+  - first:
+      213: -815812442243144733
+    second: CardFull
+  - first:
+      213: 8946199758543506004
+    second: CardBackground
+  - first:
+      213: -5389640312921232770
+    second: CardFrame
   externalObjects: {}
   serializedVersion: 2
   userData: 
@@ -87,117 +117,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Layer 1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1612
-      y: 1110
-      width: 0
-      height: 0
-    spriteID: e5c442af94c1a424a82e6b92427bcf34
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -308, y: 30}
-  - name: Ribbon_Top
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 951
-      y: 1017
-      width: 553
-      height: 85
-    spriteID: fdde2e0fa1e3f5e408ba38828581d3b0
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 290, y: 602}
-  - name: Ribbon_Bottom
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 951
-      y: 1110
-      width: 653
-      height: 53
-    spriteID: 28190d4ed175681439c554cf62291839
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 353, y: 679}
-  - name: Gem
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 951
-      y: 1171
-      width: 105
-      height: 94
-    spriteID: 9e02063c5dafd8e40a75b27f1ae85dba
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 66, y: 1137}
-  - name: Card_Foreground
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1352
-      y: 4
-      width: 653
-      height: 1005
-    spriteID: 23c27dbce8217fd44b1ceb59c5a3e3ae
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 741, y: -25}
-  - name: Card_Background
+  - name: CardBackArt
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -206,9 +126,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 1017
-      width: 471
-      height: 455
-    spriteID: 60447a8d5da0b3f46919dcab6f0fa713
+      width: 653
+      height: 1005
+    spriteID: cc1d4971a388222c0800000000000000
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -218,19 +138,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -703, y: 548}
-  - name: Card_Body
+    uvTransform: {x: 0, y: 0}
+  - name: CardArtBack
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 483
+      x: 665
       y: 1017
-      width: 460
-      height: 292
-    spriteID: 020a2a451d382fb48bbe53614807636c
+      width: 471
+      height: 455
+    spriteID: 461dd11c617291230800000000000000
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -240,8 +160,96 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -224, y: 840}
-  - name: Ribbon_Top_1
+    uvTransform: {x: 0, y: 0}
+  - name: CardRibbonBottom
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1144
+      y: 1410
+      width: 653
+      height: 53
+    spriteID: 0ad83a510356f9900800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  - name: CardRibbonTop
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1144
+      y: 1317
+      width: 553
+      height: 85
+    spriteID: 1656a81ef7c5ac030800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  - name: CardBody
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1144
+      y: 1017
+      width: 460
+      height: 292
+    spriteID: 23036444b62e34880800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  - name: CardGem
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1612
+      y: 1017
+      width: 105
+      height: 94
+    spriteID: e556dab8157d58df0800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  - name: CardFull
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -252,7 +260,7 @@ ScriptedImporter:
       y: 4
       width: 666
       height: 1005
-    spriteID: ba45a330b6560da41bd02b0ddb272f53
+    spriteID: 3e3e0c8f7e6ada4f0800000000000000
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -262,8 +270,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -594, y: -25}
-  - name: Card_Back
+    uvTransform: {x: 0, y: 0}
+  - name: CardBackground
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -274,7 +282,7 @@ ScriptedImporter:
       y: 4
       width: 666
       height: 1005
-    spriteID: 0491f81a065fa774b8d954d2159f567a
+    spriteID: 45acba90849472c70800000000000000
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -284,19 +292,30 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 80, y: -25}
-  platformSettings:
-  - name: Default
-    overridden: 1
-    maxTextureSize: 1024
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+    uvTransform: {x: 0, y: 0}
+  - name: CardFrame
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1352
+      y: 4
+      width: 653
+      height: 1005
+    spriteID: e7a6431e0b62435b0800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
@@ -319,72 +338,72 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 
     layerID: 3
     mosaicPosition: {x: 0, y: 0}
-  - name: Layer 1
-    spriteName: Layer 1
+  - name: CardRibbonTop
+    spriteName: CardRibbonTop
     isGroup: 0
     parentIndex: 0
-    spriteID: e5c442af94c1a424a82e6b92427bcf34
-    layerID: 46
-    mosaicPosition: {x: 1612, y: 1110}
-  - name: Ribbon_Top
-    spriteName: Ribbon_Top
+    spriteID: 01252750018f1054e8dd50d9d086b293
+    layerID: 109
+    mosaicPosition: {x: 1144, y: 1317}
+  - name: CardRibbonBottom
+    spriteName: CardRibbonBottom
     isGroup: 0
     parentIndex: 0
-    spriteID: fdde2e0fa1e3f5e408ba38828581d3b0
-    layerID: 15
-    mosaicPosition: {x: 951, y: 1017}
-  - name: Ribbon_Bottom
-    spriteName: Ribbon_Bottom
+    spriteID: c1471d916458fdd44a06166f31097bf3
+    layerID: 111
+    mosaicPosition: {x: 1144, y: 1410}
+  - name: CardGem
+    spriteName: CardGem
     isGroup: 0
     parentIndex: 0
-    spriteID: 28190d4ed175681439c554cf62291839
-    layerID: 17
-    mosaicPosition: {x: 951, y: 1110}
-  - name: Gem
-    spriteName: Gem
+    spriteID: a58cfc6e914d7614fb780442a63cff3e
+    layerID: 66
+    mosaicPosition: {x: 1612, y: 1017}
+  - name: CardFrame
+    spriteName: CardFrame
     isGroup: 0
     parentIndex: 0
-    spriteID: 9e02063c5dafd8e40a75b27f1ae85dba
-    layerID: 13
-    mosaicPosition: {x: 951, y: 1171}
-  - name: Card_Foreground
-    spriteName: Card_Foreground
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 23c27dbce8217fd44b1ceb59c5a3e3ae
+    spriteID: c97372aa0371be844b479fda69a2d534
     layerID: 7
     mosaicPosition: {x: 1352, y: 4}
-  - name: Card_Background
-    spriteName: Card_Background
+  - name: CardArtBackground
+    spriteName: CardArtBackground
     isGroup: 0
     parentIndex: 0
-    spriteID: 60447a8d5da0b3f46919dcab6f0fa713
+    spriteID: 818533a198f960444817e4481f1a1795
     layerID: 9
-    mosaicPosition: {x: 4, y: 1017}
-  - name: Card_Body
-    spriteName: Card_Body
+    mosaicPosition: {x: 665, y: 1017}
+  - name: CardBody
+    spriteName: CardBody
     isGroup: 0
     parentIndex: 0
-    spriteID: 020a2a451d382fb48bbe53614807636c
+    spriteID: 3e4e2bd0a5e986a4197ed14f24d33a4b
     layerID: 11
-    mosaicPosition: {x: 483, y: 1017}
-  - name: Ribbon_Top
-    spriteName: Ribbon_Top_1
+    mosaicPosition: {x: 1144, y: 1017}
+  - name: CardRibbonTop
+    spriteName: CardRibbonTop_1
     isGroup: 0
     parentIndex: 0
-    spriteID: ba45a330b6560da41bd02b0ddb272f53
+    spriteID: 8f745b5f75435c84a9eab4543b322e2d
     layerID: 37
     mosaicPosition: {x: 4, y: 4}
-  - name: Card_Back
-    spriteName: Card_Back
+  - name: CardBack
+    spriteName: CardBack
     isGroup: 0
     parentIndex: 0
-    spriteID: 0491f81a065fa774b8d954d2159f567a
+    spriteID: 5a51148bbfef5244089ad5119a8b77b5
     layerID: 53
     mosaicPosition: {x: 678, y: 4}
+  - name: CardBackArt
+    spriteName: CardBackArt
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2aefd53f4af85da479512dbd85706e13
+    layerID: 89
+    mosaicPosition: {x: 4, y: 1017}
   characterData:
     bones: []
     parts: []
