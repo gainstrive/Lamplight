@@ -5,18 +5,23 @@ using UnityEngine.UI;
 
 public class CardDisplay : MonoBehaviour
 {
-    public Card card;
-    public Text nameText;
-    public Image artworkImage;
-    public Text descriptionText;
-    public Text costText;
+    [Header("Card Properties")]
+    public Card CardObject;
+    public Text NameText;
+    public Image Artwork;
+    public Text Description;
+    public Text CostText;
+    public Color32 GemColor;
+    public Color32 RibbonBottomColor;
+    public Color32 RibbonTopColor;
 
-    // Start is called before the first frame update
     void Start()
     {
+        /*
         nameText.text = card.name;
         descriptionText.text = card.description;
         costText.text = card.cost.ToString();
+        */
         
     }
 }

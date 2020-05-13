@@ -3865,6 +3865,121 @@ PrefabInstance:
       propertyPath: m_Name
       value: LampParticleSystem
       objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: NoiseModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: NoiseModule.scrollSpeed.scalar
+      value: -13.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.ctime1
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.atime1
+      value: 32768
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.atime2
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.m_NumAlphaKeys
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: -0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: ClampVelocityModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: ClampVelocityModule.magnitude.scalar
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: NoiseModule.strength.scalar
+      value: -0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: NoiseModule.frequency
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: ClampVelocityModule.drag.scalar
+      value: 0.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: VelocityModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 2.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 2.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972135755241998028, guid: 1946ac7c7001982498aab0d451817a00,
+        type: 3}
+      propertyPath: simulationSpeed
+      value: 0.51
+      objectReference: {fileID: 0}
     - target: {fileID: 4972135755241998029, guid: 1946ac7c7001982498aab0d451817a00,
         type: 3}
       propertyPath: m_VertexStreams.Array.size
