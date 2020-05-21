@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Shootable
   layers:
   - Default
   - TransparentFX
@@ -13,9 +14,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Lighting
+  - Ground
+  - Postprocessing
   - 
   - 
   - 
@@ -38,24 +39,27 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Farthest
+    uniqueID: 1399756711
+    locked: 0
+  - name: DistanceFar
+    uniqueID: 2065776011
+    locked: 0
+  - name: Distance
+    uniqueID: 760570123
+    locked: 0
   - name: Background
-    uniqueID: 3517561321
+    uniqueID: 4087075893
     locked: 0
   - name: Decorations
-    uniqueID: 2481298483
-    locked: 0
-  - name: DecorationsFront
-    uniqueID: 4072739751
+    uniqueID: 4191738775
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: EnemyShadows
-    uniqueID: 3220823693
-    locked: 0
   - name: Enemy
-    uniqueID: 4169343237
+    uniqueID: 732889669
     locked: 0
-  - name: PlayerHand
-    uniqueID: 97208937
+  - name: Foreground
+    uniqueID: 1025228027
     locked: 0

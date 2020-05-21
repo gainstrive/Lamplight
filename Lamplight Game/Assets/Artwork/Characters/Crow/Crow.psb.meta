@@ -87,18 +87,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: CrowFrontLeg
+  - name: FrontWing
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1206
-      y: 4
-      width: 147
-      height: 287
-    spriteID: 15f66f6f70034564ba3978b71e1e5d65
+      x: 4
+      y: 823
+      width: 728
+      height: 491
+    spriteID: ff8819a631fdd4c49a2a6e2d279b6d5a
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,7 +108,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 218, y: -239}
+    uvTransform: {x: -529, y: 400}
+  - name: CrowFrontLeg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 740
+      y: 823
+      width: 147
+      height: 287
+    spriteID: 623cc23539696b54d97191d33274c18e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -248, y: 580}
   - name: CrowBody
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -120,7 +142,7 @@ ScriptedImporter:
       y: 4
       width: 1194
       height: 811
-    spriteID: d5394629b9ac08a498037e78b61aa97c
+    spriteID: 0192179a5585eeb46ae703324fbfdfef
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -138,11 +160,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1206
-      y: 299
+      x: 895
+      y: 823
       width: 113
       height: 219
-    spriteID: 8532b3578990efb43be499285b5391d6
+    spriteID: 2ad94baed618d624cb1dd9252591faab
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -152,7 +174,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 405, y: 22}
+    uvTransform: {x: 94, y: 546}
   - name: CrowBeakBack
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -160,11 +182,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1206
-      y: 526
+      x: 740
+      y: 1118
       width: 146
       height: 116
-    spriteID: 79ac205f7b5f95f45b9a0b246d50fc68
+    spriteID: 2b691ea88cdabf94b956af2ed31fb082
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -174,7 +196,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 770, y: -301}
+    uvTransform: {x: 304, y: 291}
+  - name: BackWing
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1322
+      width: 653
+      height: 420
+    spriteID: f04e7e46b68d0d1498ad3b1b2f0a56cd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -826, y: 761}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -194,34 +238,48 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: FrontWing
+    spriteName: FrontWing
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ff8819a631fdd4c49a2a6e2d279b6d5a
+    layerID: 12
+    mosaicPosition: {x: 4, y: 823}
   - name: CrowFrontLeg
     spriteName: CrowFrontLeg
     isGroup: 0
     parentIndex: -1
-    spriteID: 15f66f6f70034564ba3978b71e1e5d65
+    spriteID: 623cc23539696b54d97191d33274c18e
     layerID: 7
-    mosaicPosition: {x: 1206, y: 4}
+    mosaicPosition: {x: 740, y: 823}
   - name: CrowBody
     spriteName: CrowBody
     isGroup: 0
     parentIndex: -1
-    spriteID: d5394629b9ac08a498037e78b61aa97c
+    spriteID: 0192179a5585eeb46ae703324fbfdfef
     layerID: 8
     mosaicPosition: {x: 4, y: 4}
   - name: CrowBackLeg
     spriteName: CrowBackLeg
     isGroup: 0
     parentIndex: -1
-    spriteID: 8532b3578990efb43be499285b5391d6
+    spriteID: 2ad94baed618d624cb1dd9252591faab
     layerID: 6
-    mosaicPosition: {x: 1206, y: 299}
+    mosaicPosition: {x: 895, y: 823}
   - name: CrowBeakBack
     spriteName: CrowBeakBack
     isGroup: 0
     parentIndex: -1
-    spriteID: 79ac205f7b5f95f45b9a0b246d50fc68
+    spriteID: 2b691ea88cdabf94b956af2ed31fb082
     layerID: 9
-    mosaicPosition: {x: 1206, y: 526}
+    mosaicPosition: {x: 740, y: 1118}
+  - name: BackWing
+    spriteName: BackWing
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f04e7e46b68d0d1498ad3b1b2f0a56cd
+    layerID: 11
+    mosaicPosition: {x: 4, y: 1322}
   characterData:
     bones: []
     parts: []

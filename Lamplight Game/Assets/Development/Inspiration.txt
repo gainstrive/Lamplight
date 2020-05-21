@@ -1,0 +1,36 @@
+=========================================================================
+                               INSPIRATION
+=========================================================================
+
+Inchoate: Undeveloped; just begun.
+    // Possible enemy name for an amorphous darkness enemy.
+Larvicide: Killing of larvae.
+    // Achievement for killing a certain number of insect mobs.
+Micromancy: Divination using small objects.
+    // Achievement for discovering clues about the game.
+Paragon
+    // Achievement for unlocking X achievements.
+Triumvirate: Three people holding power.
+    // Possible idea for a three enemy boss encounter.
+Psilosophy: shallow philosophy; limited knowledge.
+    // Achievement for earning the D ending to the game where
+    // you fail to or choose not to uncover knowledge.
+Polymythy: Use of multiple plots in a single story.
+    // Achievement for earning ALL endings to the game.
+Haecceity: that property of a thing by virtue of which it is unique.
+    // Achievement for completeing the game as each character.
+Eschaton: end of the world; end time;
+    // Achievement for completeing the E ending of the game
+    // where you destroy the timelines.
+Terrisonant: Having a terrible sound.
+    // An enemy that makes horrifying noises.
+Oculiform: Shaped like an eye;
+    // Achievement for killing the "Beholder" type enemy.
+Vitrail: Stained glass;
+    // Achievement for completing a stained glass puzzle.
+Engram: Lasting effect of memory;
+    // Achievement for triggering a deja'vu event where
+    // you've played the encounter before and it becomes
+    // more frantic and difficult.
+Menticide: Reduction of mind by psychological pressure.
+    // Achievement for dying by having your sanity run out.

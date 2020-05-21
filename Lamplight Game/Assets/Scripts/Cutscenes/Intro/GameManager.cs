@@ -10,7 +10,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-
+    [Header("GameObj References:")]
+    public GameObject EventTriggers;
     public GameObject CursorLight;
     public GameObject InstructionsText;
     public GameObject FadeIn;
@@ -18,10 +19,13 @@ public class GameManager : MonoBehaviour
     public GameObject TestLight;
     public GameObject ScrollingTextAnimator;
     public GameObject LampParticles;
+    [Header("UI References:")]
     public Button LampButton;
+    [Header("Animator References:")]
     public Animator LampAnimator;
     public Animator InstructionsAnimator;
     public Animator SceneAnimator;
+    [Header("Audio References:")]
     public AudioSource AudioSource;
     public AudioClip WalkSoundToPlay;
     public AudioClip Walk1;
@@ -65,6 +69,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        EventTriggers.SetActive(false);
         TestLight.SetActive(false);
         ScrollingText.SetActive(false);
         CursorLight.SetActive(false);
@@ -73,7 +78,7 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-
+        FadeIn.SetActive(true);
         StartCoroutine(InstructionsIn());
     }
     public void hideLamp()
@@ -96,6 +101,7 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         ScrollingTextAnimator.SetActive(true);
         SceneAnimator.Play("ScrollingScene");
+        EventTriggers.SetActive(true);
         StartWalkSounds();
     }
 

@@ -105,12 +105,12 @@ TextureImporter:
       name: GrassBlade1
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 10
         width: 86
-        height: 435
+        height: 436
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -126,10 +126,10 @@ TextureImporter:
       name: GrassBlade2
       rect:
         serializedVersion: 2
-        x: 160
+        x: 159
         y: 8
-        width: 98
-        height: 434
+        width: 99
+        height: 433
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,8 +149,8 @@ TextureImporter:
         serializedVersion: 2
         x: 353
         y: 1
-        width: 74
-        height: 448
+        width: 76
+        height: 449
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: GrassBlade4
       rect:
         serializedVersion: 2
-        x: 469
+        x: 468
         y: 11
-        width: 97
-        height: 432
+        width: 99
+        height: 433
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,10 +189,10 @@ TextureImporter:
       name: GrassBlade5
       rect:
         serializedVersion: 2
-        x: 609
-        y: 9
-        width: 84
-        height: 437
+        x: 608
+        y: 10
+        width: 86
+        height: 438
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 
@@ -25,12 +26,15 @@ public class MainMenuManager : MonoBehaviour
     [Range(0.0f, 100.0f)]
     public float playMenuTimeOut;
 
+    public GameObject FadeOut;
+
     // Start is called before the first frame update
     void Awake()
     {
         buttonsInteractible = false;
         StartCoroutine(initButtonsInteractible());
-        state = menuState.AWAKE;   
+        state = menuState.AWAKE;
+        FadeOut.SetActive(false);
     }
 
     public IEnumerator initButtonsInteractible()
@@ -63,5 +67,21 @@ public class MainMenuManager : MonoBehaviour
         buttonsInteractible = true;
     }
 
+    public void NewGameButton()
+    {
+        StartCoroutine("StartNewGame");
+    }
+
+    public IEnumerator StartNewGame()
+    {
+        PlayFadeOut();
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene("Intro");
+    }
+
+    public void PlayFadeOut()
+    {
+        FadeOut.SetActive(true);
+    }
 
 }
